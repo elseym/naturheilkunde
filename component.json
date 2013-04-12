@@ -1,0 +1,11 @@
+{
+  "name": "naturheilkunde",
+  "version": "2.0.1",
+  "dependencies": {
+    "jquery": "latest",
+    "font-awesome": "latest",
+    "bootstrap-assets": "latest",
+    "jquery.scrollTo": "latest",
+    "gmap3": "latest"
+  }
+}

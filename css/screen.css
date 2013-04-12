@@ -1,0 +1,186 @@
+header, section, footer {
+    background: #FAFAFA;
+    font: 14px "Lato", sans-serif;
+}
+
+ul, ol, li, dl, dt, dd {
+    font: 14px "Lato", sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Julius Sans One", serif;
+}
+
+a, a:hover {
+    color: #474;
+}
+
+.nav-pills li.active a,
+.nav-pills li.active a:hover {
+    background-color: #474;
+    opacity: .8;
+}
+
+.nav .dropdown-toggle .caret {
+    border-top-color: #474;
+    border-bottom-color: #474;
+}
+
+.nav .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:focus .caret {
+  border-top-color: #474;
+  border-bottom-color: #474;
+}
+
+.nav .dropdown-menu {
+    background: #FAFAFA;
+}
+
+.nav>li>a:hover,
+.nav>li>a:focus {
+    background-color: #CDC;
+}
+
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav>li.dropdown.open.active>a:hover,
+.nav>li.dropdown.open.active>a:focus {
+    color: #474;
+    background-color: #CDC;
+    border-color: #CDC;
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a {
+    color: #474;
+    background-color: #474;
+    background-image: -moz-linear-gradient(top,#BDB,#CDC);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#BDB),to(#CDC));
+    background-image: -webkit-linear-gradient(top,#BDB,#CDC);
+    background-image: -o-linear-gradient(top,#BDB,#CDC);
+    background-image: linear-gradient(to bottom,#BDB,#CDC);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff447744',endColorstr='#ff558855',GradientType=0);
+}
+
+.container, .carousel {
+    margin: 0 auto;
+}
+
+header {
+    box-shadow: 0 0 8px rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 24;
+    background: #FAFAFA url(../img/texture.png);
+}
+
+header div#logo {
+    float: left;
+    height: 140px;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    width: 336px;
+    background: url(../img/logo.png);
+}
+#logotext {
+    display: none;
+}
+
+header nav {
+    height: 40px;
+    margin: 50px 0;
+    padding: 0px;
+    float: right;
+}
+
+section#body {
+    margin-top: 500px;
+    margin-bottom: 420px;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,.5);
+    min-height: 800px;
+    z-index: 18;
+}
+
+#sprechzeiten {
+    color: #CDC;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 420px;
+    background: #474 url(../img/texture.png);
+}
+
+footer h1 {
+    font-size: 1.4em;
+    color: #CDC;
+}
+
+footer h1 small {
+    font-size: .8em;
+}
+
+footer a {
+    color: #CDC;
+}
+
+footer a:hover {
+    color: #EFE;
+}
+
+#kontakt {
+    width: 420px;
+}
+
+#map {
+    height: 320px;
+}
+
+#map img {
+    max-width: none;
+}
+
+#weiteres {
+    opacity: .9;
+}
+
+#impressum-modal .modal-body {
+    color: #333;
+    font-size: .8em;
+}
+
+#impressum-modal .modal-body h2 {
+    margin: 24px 0 4px 0;
+    font-size: 1.3em;
+}
+#impressum-modal .modal-body h3 {
+    margin: 12px 0 4px 0;
+    font-size: 1.1em;
+}
+
+@media (max-width: 980px) {
+    header, section, footer, nav {
+        position: relative;
+        margin: 0 auto !important;
+        height: auto;
+    }
+    #carousel, #logo {
+        display: none;
+    }
+    #logotext {
+        display: block;
+    }
+    header {
+        position: fixed;
+    }
+    .container, .span12, .span3, .span8, .span9, #map {
+        max-width: 96%;
+    }
+}

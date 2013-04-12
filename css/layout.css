@@ -1,0 +1,115 @@
+article {
+    padding: 90px 0;
+}
+
+article h1 {
+    letter-spacing: 2px;
+    color: #333;
+    text-shadow: 0 0 8px rgba(0,0,0,.2);
+}
+
+article h2 {
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin: 24px 8px;
+    color: #444;
+    text-shadow: 0 0 4px rgba(0,0,0,.2);
+}
+
+article p {
+    margin: 4px 8px;
+    padding: 8px 2px;
+    text-indent: 1em;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+article ul {
+    display: inline-block;
+    margin-left: 48px;
+}
+
+article li {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: #555;
+}
+
+article img {
+    margin: 8px 16px;
+}
+
+article img.thumbnail {
+    margin: 0;
+}
+
+article img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+article.type1 + .row,
+.row + article.type1,
+article.type1 + article.type1,
+.row + .row {
+    border-top: 1px solid #EEE;
+}
+
+
+article.type1 {
+    
+}
+
+article.type1 h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+article.type1 h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+article.type1 p {
+
+}
+
+
+
+article.type2 {
+    
+}
+
+article.type2 h1 {
+    font-size: 1.5em;
+}
+
+article.type2 h2 {
+    font-size: 1.2em;
+}
+
+article.type2 p {
+    
+}
+
+
+
+article.type3 {
+    
+}
+
+article.type3 h1 {
+    font-size: 1.4em;
+    text-align: center;
+}
+
+article.type3 h2 {
+    text-align: center;
+    font-size: .8em;
+}
+
+article.type3 p {
+    
+}
