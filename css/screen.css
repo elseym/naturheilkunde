@@ -110,6 +110,11 @@ section#body {
     color: #CDC;
 }
 
+#sprechzeiten dd {
+    color: #BCB;
+    letter-spacing: 1px;
+}
+ 
 footer {
     position: fixed;
     bottom: 0;
